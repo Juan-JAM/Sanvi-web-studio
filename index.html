@@ -4,138 +4,156 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SANVI WEB STUDIO, S.A. DE C.V. | Soluciones Digitales</title>
-
     <link href="https://jsdelivr.net" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://jsdelivr.net">
+    <link rel="stylesheet" href="public/css/styles.css">
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top py-3">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="#">SANVI WEB STUDIO</a>
+            <a class="navbar-brand fw-bold" href="#"><i class="bi bi-code-slash me-2"></i>SANVI WEB STUDIO</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav ms-auto gap-2">
                     <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
                     <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
                     <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link btn btn-primary btn-sm text-white px-3 ms-lg-2" href="#contacto">Contacto</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-
-    <header id="inicio" class="bg-light text-center py-5 border-bottom">
-        <div class="container my-5">
-            <h1 class="display-4 fw-bold text-dark">Soluciones Digitales a la Medida</h1>
-            <p class="lead text-muted fs-4">Diseño, desarrollo y mantenimiento de páginas web y aplicaciones móviles en El Salvador.</p>
-            <a href="#servicios" class="btn btn-primary btn-lg px-4 me-sm-3 shadow-sm">Ver Servicios</a>
-            <a href="#contacto" class="btn btn-outline-secondary btn-lg px-4">Cotizar Ahora</a>
+    <header id="inicio" class="hero-section d-flex align-items-center">
+        <div class="container text-center my-5 position-relative">
+            <span class="badge bg-primary px-3 py-2 rounded-pill mb-3 text-uppercase fw-semibold tracking-wider">Estudio Tecnológico</span>
+            <h1 class="display-3 fw-bold mb-3">Soluciones Digitales<br><span style="color: #60a5fa;">a la Medida</span></h1>
+            <p class="lead text-light opacity-75 mx-auto mb-5" style="max-width: 700px;">Diseño, desarrollo y mantenimiento de páginas web y aplicaciones móviles de alta calidad en El Salvador.</p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="#servicios" class="btn btn-primary btn-lg px-4 py-3 fw-semibold rounded-3 shadow">Explorar Servicios</a>
+                <a href="#contacto" class="btn btn-outline-light btn-lg px-4 py-3 fw-semibold rounded-3">Cotizar Proyecto</a>
+            </div>
         </div>
     </header>
 
-
-    <section id="servicios" class="container py-5">
+    <section id="servicios" class="container py-5 my-5">
         <div class="text-center mb-5">
-            <h2 class="fw-bold text-dark">Nuestros Servicios</h2>
-            <p class="text-muted fs-5">Impulsamos tu presencia digital con altos estándares tecnológicos.</p>
+            <h2 class="fw-bold display-5">Nuestros Servicios</h2>
+            <p class="text-muted fs-5">Impulsamos tu presencia comercial con altos estándares en desarrollo de software.</p>
         </div>
         
         <div class="row g-4">
-
             <div class="col-md-6 col-lg-3">
-                <div class="card h-100 shadow-sm border-0 bg-light">
-                    <div class="card-body p-4">
-                        <h5 class="card-title fw-bold text-primary mb-3">Desarrollo Web</h5>
-                        <p class="card-text text-secondary">Sitios web corporativos, institucionales y plataformas comerciales adaptables a cualquier dispositivo.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-6 col-lg-3">
-                <div class="card h-100 shadow-sm border-0 bg-light">
-                    <div class="card-body p-4">
-                        <h5 class="card-title fw-bold text-primary mb-3">Apps Móviles</h5>
-                        <p class="card-text text-secondary">Creación de aplicaciones web y móviles personalizadas utilizando metodologías ágiles.</p>
+                <div class="card custom-card h-100 p-3 shadow-sm">
+                    <div class="card-body">
+                        <div class="icon-box"><i class="bi bi-laptop"></i></div>
+                        <h5 class="card-title fw-bold mb-3">Desarrollo Web</h5>
+                        <p class="card-text text-secondary">Sitios corporativos y tiendas en línea rápidos, seguros y adaptados a cualquier pantalla.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3">
-                <div class="card h-100 shadow-sm border-0 bg-light">
-                    <div class="card-body p-4">
-                        <h5 class="card-title fw-bold text-primary mb-3">Hosting y Dominios</h5>
-                        <p class="card-text text-secondary">Servicios confiables de alojamiento web y registro de nombres de dominio para tu negocio.</p>
+                <div class="card custom-card h-100 p-3 shadow-sm">
+                    <div class="card-body">
+                        <div class="icon-box"><i class="bi bi-phone"></i></div>
+                        <h5 class="card-title fw-bold mb-3">Apps Móviles</h5>
+                        <p class="card-text text-secondary">Diseño de aplicaciones móviles nativas e híbridas enfocadas en una gran experiencia de usuario.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3">
-                <div class="card h-100 shadow-sm border-0 bg-light">
-                    <div class="card-body p-4">
-                        <h5 class="card-title fw-bold text-primary mb-3">Soporte Técnico</h5>
-                        <p class="card-text text-secondary">Mantenimiento correctivo y evolutivo constante para asegurar la operatividad de tus plataformas.</p>
+                <div class="card custom-card h-100 p-3 shadow-sm">
+                    <div class="card-body">
+                        <div class="icon-box"><i class="bi bi-cloud-check"></i></div>
+                        <h5 class="card-title fw-bold mb-3">Hosting y Dominios</h5>
+                        <p class="card-text text-secondary">Servidores en la nube optimizados para garantizar que tu negocio esté siempre en línea.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card custom-card h-100 p-3 shadow-sm">
+                    <div class="card-body">
+                        <div class="icon-box"><i class="bi bi-wrench-accent"></i></div>
+                        <h5 class="card-title fw-bold mb-3">Soporte Técnico</h5>
+                        <p class="card-text text-secondary">Monitoreo continuo y soporte evolutivo permanente para todas tus plataformas digitales.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="nosotros" class="bg-light py-5">
-        <div class="container">
+    <section id="nosotros" class="bg-white py-5 border-top border-bottom">
+        <div class="container my-4">
             <div class="row align-items-center g-5">
                 <div class="col-lg-6">
-                    <h2 class="fw-bold mb-3 text-dark">Sobre SANVI WEB STUDIO</h2>
-                    <p class="text-secondary lead fs-5">Somos una sociedad mercantil constituida legalmente bajo las leyes de la República de El Salvador, con base operativa en el Distrito de San Vicente.</p>
-                    <p class="text-secondary">Nuestra identidad combina la fuerza de nuestra región de origen y la experiencia de nuestro equipo fundador para entregar productos de software robustos y de calidad global.</p>
+                    <div class="pe-lg-4">
+                        <h2 class="fw-bold display-5 mb-4">Sobre SANVI WEB STUDIO</h2>
+                        <p class="text-secondary lead fs-5 mb-4">Somos una sociedad anónima constituida legalmente bajo las leyes de la República de El Salvador, operando desde el Distrito de San Vicente.</p>
+                        <p class="text-secondary">Nuestra identidad une la pasión tecnológica de nuestro equipo de desarrollo con metodologías de trabajo ágiles y transparentes bajo normativas contables globales.</p>
+                    </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="p-4 bg-white border-0 rounded shadow-sm">
-                        <h5 class="fw-bold text-dark mb-4 border-bottom pb-2">Información Corporativa</h5>
-                        <ul class="list-unstyled mb-0">
-                            <li class="mb-3"><strong>Representante Legal:</strong> Kevin Julián Alfaro Ramos</li>
-                            <li class="mb-3"><strong>NIT:</strong> 1010-100326-101-8</li>
-                            <li class="mb-3"><strong>NRC:</strong> 314582-9</li>
-                            <li class="mb-3"><strong>Inscripción:</strong> Nº 289, Libro No. 09 (Registro de Sociedades)</li>
-                            <li class="mb-3"><strong>Base Contable:</strong> NIIF para las PYMES</li>
-                            <li><strong>Moneda Operativa:</strong> USD ($)</li>
-                        </ul>
+                    <div class="p-4 bg-light rounded-4 shadow-sm border">
+                        <h4 class="fw-bold text-dark mb-4"><i class="bi bi-shield-check text-primary me-2"></i>Validez Legal y Corporativa</h4>
+                        
+                        <div class="info-badge">
+                            <span class="text-muted d-block small text-uppercase">Representación</span>
+                            <strong>Kevin Julián Alfaro Ramos</strong> (Representante Legal)
+                        </div>
+                        <div class="info-badge">
+                            <span class="text-muted d-block small text-uppercase">Identificación Tributaria</span>
+                            <strong>NIT: 1010-100326-101-8</strong> | <strong>NRC: 314582-9</strong>
+                        </div>
+                        <div class="info-badge">
+                            <span class="text-muted d-block small text-uppercase">Registro CNR</span>
+                            <strong>Inscripción Nº 289, Libro No. 09</strong> (Sociedades)
+                        </div>
+                        <div class="info-badge">
+                            <span class="text-muted d-block small text-uppercase">Base Económica</span>
+                            <strong>NIIF para las PYMES</strong> / Moneda: USD ($)
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="contacto" class="container py-5">
+    <section id="contacto" class="container py-5 my-5">
         <div class="text-center mb-5">
-            <h2 class="fw-bold text-dark">Contacto</h2>
-            <p class="text-muted fs-5">¿Tienes un proyecto en mente? Escríbenos.</p>
+            <h2 class="fw-bold display-5">¿Iniciamos tu proyecto?</h2>
+            <p class="text-muted fs-5">Completa el formulario y un asesor técnico responderá tu solicitud a la brevedad.</p>
         </div>
         <div class="row justify-content-center">
             <div class="col-md-8 col-lg-6">
-                <form class="p-4 bg-light rounded shadow-sm">
-                    <div class="mb-3">
+                <form class="p-4 p-sm-5 bg-white rounded-4 shadow-sm border">
+                    <div class="mb-4">
                         <label for="nombre" class="form-label fw-semibold">Nombre Completo</label>
-                        <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+                        <input type="text" class="form-control" id="nombre" placeholder="Ej. Juan Pérez">
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-4">
                         <label for="email" class="form-label fw-semibold">Correo Electrónico</label>
                         <input type="email" class="form-control" id="email" placeholder="nombre@empresa.com">
                     </div>
-                    <div class="mb-3">
-                        <label for="mensaje" class="form-label fw-semibold">Mensaje o Requerimiento</label>
-                        <textarea class="form-control" id="mensaje" rows="4" placeholder="Cuéntanos sobre tu proyecto..."></textarea>
+                    <div class="mb-4">
+                        <label for="mensaje" class="form-label fw-semibold">Mensaje o Detalle del Software</label>
+                        <textarea class="form-control" id="mensaje" rows="4" placeholder="Describe brevemente las funciones que necesitas..."></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary w-100 fw-bold py-2 shadow-sm">Enviar Mensaje</button>
+                    <button type="submit" class="btn btn-primary btn-submit w-100 text-white shadow-sm">Enviar Solicitud</button>
                 </form>
             </div>
         </div>
     </section>
 
-    <footer class="bg-dark text-white text-center py-4 mt-5">
+    <footer class="bg-dark text-white text-center py-5">
         <div class="container">
-            <p class="mb-1">&copy; 2026 <strong>SANVI WEB STUDIO, S.A. DE C.V.</strong> - Todos los derechos reservados.</p>
-            <small class="text-muted">San Vicente, El Salvador, Centroamérica.</small>
+            <p class="mb-2 fs-5"><strong>SANVI WEB STUDIO, S.A. DE C.V.</strong></p>
+            <p class="text-muted mb-4 small">Todos los derechos reservados &copy; 2026</p>
+            <div class="d-flex justify-content-center gap-3 text-muted border-top pt-4">
+                <span>San Vicente, El Salvador</span>
+            </div>
         </div>
     </footer>
 
