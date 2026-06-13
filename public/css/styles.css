@@ -106,3 +106,14 @@ body {
 .btn-submit:hover {
     background-color: #1d4ed8;
 }
+.navbar-brand img{
+    transition: .3s;
+}
+
+.navbar-brand img:hover{
+    transform: scale(1.05);
+}
+
+.hero-section img{
+    filter: drop-shadow(0 10px 25px rgba(0,0,0,.35));
+}
