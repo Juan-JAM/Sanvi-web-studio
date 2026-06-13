@@ -28,7 +28,6 @@ body {
     color: var(--accent-color) !important;
 }
 
-/* Sección Hero Imponente */
 .hero-section {
     background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
     color: white;
@@ -46,7 +45,7 @@ body {
     background: radial-gradient(circle, rgba(37,99,235,0.15) 0%, rgba(0,0,0,0) 70%);
 }
 
-/* Tarjetas de Servicios Estilizadas con Efecto Elevación */
+
 .custom-card {
     border: 1px solid #e2e8f0;
     border-radius: 16px;
@@ -76,7 +75,7 @@ body {
     color: white;
 }
 
-/* Sección de Información Corporativa */
+
 .info-badge {
     background-color: var(--light-bg);
     border-left: 4px solid var(--accent-color);
@@ -85,7 +84,7 @@ body {
     border-radius: 0 8px 8px 0;
 }
 
-/* Formulario de Contacto Moderno */
+
 .form-control {
     border-radius: 10px;
     padding: 12px;
@@ -106,4 +105,9 @@ body {
 }
 .btn-submit:hover {
     background-color: #1d4ed8;
+}
+.foorter {
+    background-color: var(--primary-color);
+    color: rgb(255, 255, 255);
+    padding: 40px 0;
 }
