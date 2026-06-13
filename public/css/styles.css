@@ -7,14 +7,14 @@ body {
     background-color: #f8fafc;
 }
 
-/* Variables de colores corporativos */
+
 :root {
-    --primary-color: #0f172a;    /* Azul Oscuro Tecnológico */
-    --accent-color: #2563eb;     /* Azul Eléctrico */
-    --light-bg: #f1f5f9;         /* Gris Claro Premium */
+    --primary-color: #0f172a;    
+    --accent-color: #2563eb;    
+    --light-bg: #f1f5f9;         
 }
 
-/* Barra de Navegación */
+
 .navbar {
     background-color: var(--primary-color) !important;
     backdrop-filter: blur(10px);
