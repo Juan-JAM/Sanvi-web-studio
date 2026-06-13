@@ -117,3 +117,40 @@ body {
 .hero-section img{
     filter: drop-shadow(0 10px 25px rgba(0,0,0,.35));
 }
+
+.logo-navbar{
+    max-height: 80px;
+    width: auto;
+}
+
+
+.logo-hero{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+
+@media (max-width: 768px){
+
+    .logo-navbar{
+        max-height: 60px;
+    }
+
+    .logo-hero{
+        max-width: 350px;
+    }
+
+}
+
+@media (max-width: 576px){
+
+    .logo-navbar{
+        max-height: 45px;
+    }
+
+    .logo-hero{
+        max-width: 250px;
+    }
+
+}
